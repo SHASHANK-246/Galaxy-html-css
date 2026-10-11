@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #main{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: url("https://tse1.mm.bing.net/th/id/OIP._WjxagQ2Lr4ZP-p-FVutqQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");          
+        }
+        #sun{
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            background-color: rgb(250, 213, 2);
+            background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=9KGgwBjs&id=9F58C1ABAA664443AD5DE4D8FDC9F7B6391E6EEC&thid=OIP.9KGgwBjsHKR0DlqimPtkigHaHe&mediaurl=https%3a%2f%2fpngimg.com%2fd%2fsun_PNG13431.png&exph=3308&expw=3276&q=sun++image+png&mode=overlay&FORM=IQFRBA&ck=FBF8A6EC6D6535E1209DB9E60741006D&selectedIndex=0&idpp=serp");
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgb(250, 213, 2);
+        }
+        #o1,#o2,#o3,#o4,#o5,#o6,#o7,#o8{
+            border: 0.5px solid white;
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            animation-name: rotate ;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+        #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px red;
+            position: relative;
+            top: 18px;
+            background-color: skyblue;
+        }
+        #o2{
+            height: 130px;
+            width: 130px;
+            animation-duration: 5s;
+        }
+        #p2{
+            margin: 3px;
+            background-color: rgb(248, 190, 190);
+        }
+        #o3{
+            height: 160px;
+            width: 160px;
+            animation-duration: 7s;
+        }
+        #p3{
+            margin: 7px;
+            background-color: rgb(49, 158, 140);
+        }
+        #o4{
+            height: 190px;
+            width: 190px;
+            animation-duration: 14s;
+        }
+        #p4{
+            margin: 12px;
+            background-color: rgb(46, 86, 194);
+        }
+
+        #o5{
+            height: 250px;
+            width: 250px;
+            animation-duration: 20s;
+        }
+        #p5{
+            margin: 21px;
+            background-color: rgb(197, 72, 187);
+        }
+        #o6{
+            height: 280px;
+            width: 280px;
+            animation-duration: 26s;
+        }
+        #p6{
+            margin: 25px;
+            background-color: rgb(167, 51, 95);
+        }
+        #o7{
+            height: 310px;
+            width: 310px;
+            animation-duration: 32s;
+        }
+        #p7{
+            margin: 29px;
+            background-color: rgb(80, 31, 50);
+        }
+        #o8{
+            height: 340px;
+            width: 340px;
+            animation-duration: 38s;
+        }
+        #p8{
+            margin: 34px;
+            background-color: rgb(133, 28, 28);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="sun">
+        </div>
+        
+        <div id="o1">
+            <div id="p1">
+
+            </div>
+        </div>
+
+        <div id="o2" class="o2">
+            <div id="p2">
+
+            </div>
+        </div>
+
+        <div id="o3" class="o3">
+            <div id="p3">
+
+            </div>
+        </div>
+        
+        <div id="o4" class="o4">
+            <div id="p4">
+
+            </div>
+        </div>
+
+        <div id="o5" class="o5">
+            <div id="p5">
+
+            </div>
+        </div>
+
+        <div id="o6" class="o6">
+            <div id="p6">
+
+            </div>
+        </div>
+
+        <div id="o7" class="o7">
+            <div id="p7">
+
+            </div>
+        </div>
+
+        <div id="o8" class="o8">
+            <div id="p8">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
